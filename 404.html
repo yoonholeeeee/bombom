@@ -1,12 +1,10 @@
 <script>
     var path = window.location.pathname;
   
-    var newPath = "/bombom" + path;
-    
-    if (path.startsWith("/bombom")) {
-      newPath = path;
+    // ✅ 기존 `/bombom/`이 없으면 추가
+    if (!path.startsWith("/bombom")) {
+      var newPath = "/bombom" + path;
+      window.location.replace(newPath);
     }
-  
-    window.location.replace(newPath);
   </script>
   
