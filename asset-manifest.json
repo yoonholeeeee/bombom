@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bombom/static/css/main.c03f03ca.css",
-    "main.js": "/bombom/static/js/main.e14ccef4.js",
+    "main.js": "/bombom/static/js/main.f8a8b888.js",
     "index.html": "/bombom/index.html",
     "main.c03f03ca.css.map": "/bombom/static/css/main.c03f03ca.css.map",
-    "main.e14ccef4.js.map": "/bombom/static/js/main.e14ccef4.js.map"
+    "main.f8a8b888.js.map": "/bombom/static/js/main.f8a8b888.js.map"
   },
   "entrypoints": [
     "static/css/main.c03f03ca.css",
-    "static/js/main.e14ccef4.js"
+    "static/js/main.f8a8b888.js"
   ]
 }
