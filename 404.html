@@ -1,6 +1,12 @@
 <script>
     var path = window.location.pathname;
+  
     var newPath = "/bombom" + path;
+    
+    if (path.startsWith("/bombom")) {
+      newPath = path;
+    }
+  
     window.location.replace(newPath);
   </script>
   
